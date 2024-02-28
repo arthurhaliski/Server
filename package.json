@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "vercel-build": "node ./src/index.js --output public"
+    "start": "node index.js",
+    "vercel-build": "node index.js --output public"
   },
   "keywords": [],
   "author": "",
