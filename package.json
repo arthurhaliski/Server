@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "build": "babel src --out-dir dist"
+    "vercel-build": "node ./src/index.js --output public"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "graphql": "^16.8.1",
     "graphql-subscriptions": "^2.0.0",
     "subscriptions-transport-ws": "^0.11.0",
+    "vercel": "^33.5.2",
     "ws": "^8.16.0"
   },
   "devDependencies": {
